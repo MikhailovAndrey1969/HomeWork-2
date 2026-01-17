@@ -5,12 +5,13 @@ int main() {
 
 	setlocale(LC_CTYPE, "rus");
 
-	double	num;
+	double	num{};
 
-	std::cout << "Ââåäèòå ÷èñëî: " << std::endl;
+	std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã®: " << std::endl;
 	std::cin >> num;	
-	std::cout << "Âû ââåëè: " << std::endl;
+	std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨: " << std::endl;
 	std::cout << num << std::endl;
 
 	return 0;
+
 }
